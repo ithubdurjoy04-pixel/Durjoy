@@ -1,0 +1,36 @@
+services:
+  # Shankhodhwani Backend API Service on Render
+  - type: web
+    name: shankhodhwani-backend
+    env: node
+    plan: starter
+    region: singapore
+    buildCommand: "npm install && npm run build"
+    startCommand: "npm run start"
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: shankhodhwani-postgres
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGIN
+        value: "https://shankhodhwoni.netlify.app"
+      - key: SSLCOMMERZ_STORE_ID
+        sync: false
+      - key: SSLCOMMERZ_STORE_PASS
+        sync: false
+      - key: SSLCOMMERZ_IS_LIVE
+        value: "false"
+
+databases:
+  # Managed PostgreSQL Database on Render
+  - name: shankhodhwani-postgres
+    plan: starter
+    region: singapore
+    databaseName: shankhodhwani_db
+    user: shankhodhwani_admin

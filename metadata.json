@@ -1,0 +1,6 @@
+{
+  "name": "শঙ্খধ্বনি (Shankhodhwani)",
+  "description": "চারটভাঙ্গা মধ্যপাড়া দুর্গা মন্দির - ডিজিটাল ইকোসিস্টেম, সেবা ও আর্থিক স্বচ্ছতা",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

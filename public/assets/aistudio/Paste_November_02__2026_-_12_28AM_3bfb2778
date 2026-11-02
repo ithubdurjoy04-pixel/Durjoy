@@ -1,0 +1,1124 @@
+MASTER DEVELOPMENT PROMPT
+
+SHANKHODHWANI — COMPLETE DIGITAL ECOSYSTEM
+
+Website + Android Application + Backend + Database + Admin Dashboard
+
+1. PROJECT OVERVIEW
+
+Build a complete, professional, premium-quality digital ecosystem named শঙ্খধ্বনি (Shankhodhwani) for:
+
+চারটভাঙ্গা মধ্যপাড়া দুর্গা মন্দির
+
+Tagline:
+
+“ঐতিহ্য আমাদের, দায়িত্বও আমাদের।”
+
+The system must include:
+
+1. A fully responsive public website.
+2. A separate Android mobile application.
+3. A secure, complete Admin Dashboard.
+4. A centralized backend and database.
+5. Financial and donation management.
+6. Member management.
+7. Notice, event and calendar management.
+8. Photo and video gallery.
+9. Complaint and feedback portal.
+10. Notification and reminder system.
+11. Role-based access control.
+12. Reports, receipts and audit history.
+13. Future-ready social media integration.
+
+IMPORTANT: This is a complete production-oriented project, not a landing-page demo or static prototype. Do not omit features, replace functional systems with dummy buttons, or leave essential workflows as placeholders. If a third-party integration requires credentials, implement its backend integration structure and clearly document the remaining configuration.
+
+---
+
+2. BRANDING & VISUAL IDENTITY
+
+Use the existing official Shankhodhwoni logo and cover image supplied by the project owner. Do not invent a new logo or replace the existing identity.
+
+Design direction
+
+Create a premium, elegant, modern, unique and professional design.
+
+Main colors:
+
+- Deep Maroon / Burgundy — primary brand color.
+- Warm White / Off-white — main background.
+- Subtle Gold — accent color.
+- Midnight Blue — night-theme color.
+
+Design requirements:
+
+- Clean and elegant layout.
+- Premium typography.
+- Balanced spacing.
+- Beautiful Bengali typography.
+- Professional navigation.
+- Smooth but restrained animations.
+- Elegant cards and section layouts.
+- Responsive design for mobile, tablet and desktop.
+- Consistent design system across website and Android app.
+- Excellent accessibility and readability.
+
+Avoid:
+
+- Generic template-like design.
+- Excessive gradients.
+- Unnecessary animations.
+- Overcrowded sections.
+- Excessive decorative elements.
+- Poor Bengali typography.
+- Oversized or inconsistent components.
+
+The visual result should feel like a professionally designed institutional platform.
+
+---
+
+3. LANGUAGE SYSTEM
+
+Default language: Bengali.
+
+Add an English language switch.
+
+Requirements:
+
+- All public pages must support Bengali and English.
+- Admin Dashboard must also support both languages.
+- Android app must support both languages.
+- Language selection must persist after closing and reopening the app or browser.
+- All buttons, forms, validation messages, notifications and system messages must be translated.
+- Bengali must be the default language for new visitors.
+
+---
+
+4. DYNAMIC TIME-BASED THEME SYSTEM
+
+Implement an automatic theme system using Bangladesh local time (Asia/Dhaka).
+
+Theme schedule:
+
+Time| Theme
+04:00–06:00| Dawn / Misty
+06:00–11:00| Sunrise / Morning
+11:00–15:00| Daylight
+15:00–17:00| Golden Hour
+17:00–19:00| Evening / Temple Lamps
+19:00–04:00| Night / Maa Durga-inspired ambience
+
+Requirements:
+
+- Automatically change the website theme based on Bangladesh local time.
+- Smooth theme transitions.
+- Premium, subtle background effects.
+- Respect readability and accessibility.
+- Add manual theme selection.
+- Add automatic/manual theme settings.
+- Allow Admin to edit theme schedules.
+- Save user theme preferences.
+- Apply consistent theme logic in the Android app.
+
+Night theme should have a subtle, elegant Maa Durga-inspired ambience, not an overly decorative or distracting background.
+
+---
+
+5. WEBSITE STRUCTURE
+
+Build the following complete website sections:
+
+A. Home Page
+
+- Official logo and branding.
+- Premium hero section.
+- Temple introduction.
+- Important notices.
+- Upcoming events.
+- Latest gallery highlights.
+- Public financial summary.
+- Donation entry point.
+- Quick navigation.
+- Social media section.
+- Contact information.
+- Footer with privacy policy and terms.
+
+B. About / Temple History
+
+- Temple introduction.
+- History and heritage.
+- Religious and cultural activities.
+- Mission and vision.
+- Committee-approved content.
+- Editable from Admin Dashboard.
+
+C. Committee
+
+- Committee member profiles.
+- Names, positions and optional photos.
+- Role descriptions.
+- Editable by authorized Admin.
+
+D. Members
+
+- Member directory according to public privacy settings.
+- Only approved public information may be displayed.
+- Private mobile numbers, addresses and personal information must never appear publicly.
+
+E. Notice Board
+
+- Important announcements.
+- Notice title and details.
+- Publish date.
+- Optional attachment.
+- Scheduled publishing.
+- Previous notice archive.
+- Admin create/edit/delete/unpublish controls.
+
+F. Events & Calendar
+
+- Upcoming religious and cultural events.
+- Event date and time.
+- Event location.
+- Description.
+- Optional image.
+- Event calendar.
+- Previous event history.
+- Admin scheduling and publishing.
+
+G. Photo & Video Gallery
+
+- Event-wise albums.
+- Photo and video uploads.
+- Captions and descriptions.
+- Upload date.
+- Category-based filtering.
+- Admin edit, delete, publish and unpublish.
+- Only published media should be public.
+
+H. Financial Transparency
+
+Show only approved and published financial information.
+
+Display:
+
+- Total collected.
+- Total spent.
+- Remaining balance.
+- Optional monthly and yearly summaries.
+- Approved transaction history.
+
+Financial calculation:
+
+Remaining Balance = Published Income − Published Expenses
+
+Do not display private member information.
+
+I. Donation
+
+Create a separate professional donation section.
+
+J. Complaint & Feedback
+
+Create a secure complaint submission and tracking portal.
+
+K. Contact
+
+Display:
+
+- Email: shankhodhwoni@gmail.com
+- Phone: 01779760693
+
+Include:
+
+- Click-to-call.
+- Click-to-email.
+- Contact form.
+- Optional map/location configuration.
+
+L. Privacy Policy
+
+M. Terms & Conditions
+
+All page content should be manageable from the Admin Dashboard.
+
+---
+
+6. COMPLETE ADMIN DASHBOARD
+
+Build a secure, professional Admin Dashboard.
+
+There must be exactly three main Admin roles:
+
+1. সভাপতি — President
+2. সম্পাদক — Secretary
+3. কোষাধ্যক্ষ — Treasurer
+
+Each role must have a separate account and individual login credentials.
+
+Never use a shared Admin login.
+
+President
+
+- Overall system oversight.
+- View all management sections.
+- Review financial information.
+- Approve or reject relevant records.
+- Publish/unpublish approved content.
+- View reports.
+- Manage role permissions.
+- Review activity logs.
+- Monitor system performance.
+
+Secretary
+
+- Member management.
+- Notice management.
+- Event management.
+- Gallery management.
+- Complaint management.
+- Website content management.
+- Public communication.
+- Relevant reports.
+
+Treasurer
+
+- Member deposits.
+- Income management.
+- Expense management.
+- Financial verification.
+- Donation records.
+- Receipts.
+- Financial reports.
+- Published financial summaries.
+
+Implement configurable role permissions while retaining these three primary roles.
+
+Admin security
+
+- Secure authentication.
+- Password hashing.
+- Secure sessions.
+- Role-based authorization.
+- Login attempt protection.
+- Password reset process.
+- Session expiry.
+- Activity tracking.
+- Audit logs.
+- Optional two-factor authentication.
+
+---
+
+7. MEMBER MANAGEMENT SYSTEM
+
+Create a complete member management system.
+
+Each member profile should support:
+
+- Member ID.
+- Full name.
+- Profile photo.
+- Mobile number.
+- Address.
+- Contact information.
+- Membership status.
+- Registration date.
+- Individual deposit history.
+- Total deposited amount.
+- Last deposit date.
+- Notes.
+
+Admin features:
+
+- Add member.
+- Edit member.
+- View member profile.
+- Search by name or mobile.
+- Filter members.
+- View complete deposit history.
+- Export member information.
+- Activate/deactivate membership.
+
+Member contact information must remain private and accessible only to authorized Admins.
+
+---
+
+8. FINANCIAL MANAGEMENT SYSTEM
+
+This is one of the most important parts of the entire project.
+
+Build a fully functional financial management system.
+
+A. Member Deposits
+
+Members may deposit money irregularly, sometimes after several months.
+
+Do not assume monthly deposits.
+
+Every deposit must be a separate transaction.
+
+Deposit fields:
+
+- Member.
+- Amount.
+- Actual deposit date.
+- Payment method.
+- Transaction reference.
+- Description.
+- Optional attachment.
+- Entry date.
+- Entry Admin.
+
+Automatically calculate:
+
+- Individual member total.
+- Total collected.
+- Last deposit date.
+- Overall published income.
+
+B. Expense Management
+
+Expense fields:
+
+- Expense date.
+- Expense title.
+- Category.
+- Amount.
+- Description.
+- Payment method.
+- Optional receipt image/PDF.
+- Entry Admin.
+- Entry timestamp.
+
+C. Financial Dashboard
+
+Show:
+
+- Total collected.
+- Total expenses.
+- Current balance.
+- Monthly income.
+- Monthly expenses.
+- Yearly income.
+- Yearly expenses.
+- Member-wise deposit report.
+- Category-wise expense report.
+
+D. Financial Calculations
+
+Calculate automatically from approved and published transactions.
+
+Total Published Income = Sum of all published income transactions.
+
+Total Published Expenses = Sum of all published expense transactions.
+
+Current Balance = Total Published Income − Total Published Expenses.
+
+Use decimal-safe financial calculations. Never use imprecise floating-point arithmetic for money.
+
+E. Transaction History
+
+Maintain:
+
+- Transaction ID.
+- Transaction type.
+- Amount.
+- Date.
+- Description.
+- Created by.
+- Updated by.
+- Approval status.
+- Publication status.
+- Audit history.
+
+F. Reports & Export
+
+Provide:
+
+- Monthly reports.
+- Yearly reports.
+- Member-wise reports.
+- Deposit reports.
+- Expense reports.
+- Balance reports.
+- PDF export.
+- CSV export.
+- Excel export.
+- Printable statements.
+- PDF deposit receipts.
+
+---
+
+9. FINANCIAL DRAFT → REVIEW → PUBLISH SYSTEM
+
+This workflow is mandatory.
+
+Never automatically publish newly created financial records.
+
+Follow this exact process:
+
+Step 1 — Create Draft
+
+When an Admin enters a new deposit or expense, save it as a private draft.
+
+Step 2 — Review
+
+Admin checks and validates the transaction.
+
+Step 3 — Edit
+
+Admin may correct the information before publishing.
+
+Step 4 — Publish
+
+An authorized Admin explicitly clicks the Publish button.
+
+Step 5 — Public Display
+
+Only published transactions are included in public financial totals and public transaction history.
+
+Step 6 — Unpublish
+
+An authorized Admin may unpublish a previously published transaction.
+
+The public totals must recalculate accordingly.
+
+Important rules
+
+- New entries must not change public financial totals before publication.
+- Draft records must remain private.
+- Rejected records must remain private.
+- Unpublished records must remain private.
+- Editing or deleting records must preserve audit history.
+- Never silently erase financial history.
+- Require confirmation before important financial actions.
+- Record which Admin performed each action.
+
+---
+
+10. DONATION & PAYMENT GATEWAY
+
+Build a professional, modern donation checkout system.
+
+The donation process should feel like a modern e-commerce checkout.
+
+Donation methods
+
+Prepare the system for:
+
+- Visa.
+- Mastercard.
+- Other supported bank cards.
+- Mobile banking.
+- bKash.
+- Nagad.
+- Internet banking.
+- Other supported gateway methods.
+
+Payment gateway
+
+Implement an integration-ready backend for an authorized payment gateway such as SSLCOMMERZ or another suitable Bangladesh payment provider.
+
+Requirements:
+
+- Secure checkout.
+- Server-side payment initiation.
+- Payment verification.
+- Verified webhook/callback handling.
+- Transaction ID.
+- Donor name.
+- Donor contact, where voluntarily provided.
+- Donation amount.
+- Payment method.
+- Payment status.
+- Donation receipt.
+- Admin verification and reporting.
+
+Important:
+
+- Actual payment methods depend on the selected provider and merchant approval.
+- Never mark a payment successful only because the frontend says it succeeded.
+- Verify transactions on the backend.
+- Do not pretend that personal bKash/Nagad transfers are automatically verified.
+- Clearly distinguish gateway payments from manual transfers.
+- Keep all API secrets in secure backend environment variables.
+- Never expose secret keys in frontend code or GitHub.
+
+Manual payment configuration
+
+Support configurable manual payment instructions for:
+
+- Bank transfer.
+- bKash.
+- Nagad.
+
+Payment details must appear only inside the donation flow after the donor selects a manual payment method.
+
+Do not display personal payment information on the homepage or unrelated pages.
+
+The organization owner will configure and verify the payment account details from the secure Admin settings.
+
+If personal accounts are used, clearly identify them as personal accounts.
+
+Donation confirmation
+
+After verification:
+
+- Generate donation receipt.
+- Save donation record.
+- Send confirmation notification if the donor has provided contact details and consent.
+- Include transaction reference.
+- Update financial records through the proper review and publication workflow.
+
+---
+
+11. COMPLAINT & FEEDBACK PORTAL
+
+Build a secure complaint system.
+
+Allow visitors to submit complaints:
+
+- Anonymous complaint.
+- Named complaint.
+- Optional mobile number.
+- Optional email.
+- Complaint subject.
+- Detailed message.
+- Optional photo attachment.
+- Optional video attachment.
+
+After submission:
+
+- Generate a unique tracking ID.
+- Display submission confirmation.
+- Allow tracking by ID.
+- Show complaint status.
+
+Complaint statuses:
+
+1. New.
+2. Under Review.
+3. Resolved.
+4. Rejected, where appropriate.
+
+Privacy and security
+
+- Complaint information must be private by default.
+- Only authorized Admins can view complaints.
+- Uploaded media must not be publicly accessible.
+- Use private file storage.
+- Use secure, expiring access links.
+- Validate file types and sizes.
+- Scan uploaded files where supported.
+- Do not expose complaint attachments through public URLs.
+- Do not publish complaint details without explicit authorization.
+
+Admin features:
+
+- View complaints.
+- Search by tracking ID.
+- Update status.
+- Add private internal notes.
+- Respond to complainants where contact details exist.
+- Maintain complaint history.
+
+---
+
+12. SOCIAL MEDIA INTEGRATION
+
+Prepare editable social media slots for:
+
+- Facebook.
+- Instagram.
+- YouTube.
+- WhatsApp.
+- Telegram.
+- TikTok.
+- X (Twitter).
+- Future platforms.
+
+Initially, no social media URLs are configured.
+
+Therefore:
+
+- Do not invent links.
+- Show a tasteful “Coming Soon” state.
+- Do not show fake or non-working links.
+- Allow Admin to add actual URLs later.
+- Allow Admin to edit, enable, disable or hide platforms.
+- Open the actual configured URL when a visitor clicks.
+- Support future platform additions without redesigning the entire website.
+
+The website and Android app must use the same backend social media settings.
+
+---
+
+13. NOTIFICATION & REMINDER SYSTEM
+
+Build a flexible notification system.
+
+Notifications
+
+- New notice.
+- Upcoming event.
+- Donation confirmation.
+- Complaint status update.
+- Important announcement.
+- Admin activity alerts.
+- Member reminders.
+
+Notification channels
+
+- In-app notification.
+- Android push notification.
+- Email.
+- SMS.
+- WhatsApp.
+- Voice call.
+
+External notification services must be integration-ready.
+
+WhatsApp, SMS and voice call reminders
+
+Allow authorized Admins to:
+
+- Select recipients.
+- Create reminder messages.
+- Schedule reminders.
+- Send reminders.
+- View delivery status.
+- View notification history.
+
+Requirements:
+
+- Obtain user consent before sending.
+- Provide opt-out options.
+- Respect provider policies.
+- Avoid spam.
+- Keep delivery logs.
+- Allow Admin to configure provider credentials securely.
+
+Do not claim that SMS, WhatsApp or voice calling is live before actual provider configuration and testing.
+
+---
+
+14. ANDROID APPLICATION
+
+Build a separate, real Android application for Shankhodhwoni.
+
+Recommended technology:
+
+- Kotlin.
+- Jetpack Compose.
+- Modern Android architecture.
+- Secure API communication.
+
+The Android app must use the same backend and database as the website.
+
+It must not be a simple WebView wrapper.
+
+Public Android features
+
+- Home.
+- Temple information.
+- Committee.
+- Members, subject to privacy settings.
+- Notice board.
+- Events and calendar.
+- Photo gallery.
+- Video gallery.
+- Published financial summary.
+- Donation.
+- Complaint submission.
+- Complaint tracking.
+- Contact.
+- Bengali/English language switch.
+- Automatic/manual theme.
+
+Admin Android features
+
+- Secure Admin login.
+- Role-based Dashboard.
+- Member management.
+- Deposit entry.
+- Expense entry.
+- Draft/review/publish.
+- Complaint management.
+- Notice management.
+- Event management.
+- Gallery management.
+- Reports.
+- Notifications.
+- Audit history.
+
+Android requirements
+
+- Push notifications.
+- Secure authentication.
+- Loading states.
+- Offline-friendly cached public content.
+- Error handling.
+- Responsive layouts.
+- Proper back navigation.
+- Accessibility.
+- App icon and splash screen.
+- Production-ready signing configuration.
+
+Deliver:
+
+- Complete Android Studio source project.
+- Build instructions.
+- Debug APK for testing.
+- Signed release APK/AAB when signing credentials are supplied.
+- Testing report.
+
+Do not call a README file or a WebView a completed Android application.
+
+---
+
+15. BACKEND & DATABASE ARCHITECTURE
+
+Use a centralized backend and database.
+
+Recommended architecture:
+
+Frontend
+
+- Modern responsive web framework.
+- Reusable components.
+- Bengali-first interface.
+
+Backend
+
+- Secure REST API.
+- Authentication and authorization.
+- Financial workflows.
+- Payment verification.
+- Notification services.
+- File upload management.
+
+Database
+
+- PostgreSQL.
+
+Suggested database entities:
+
+- users
+- admin_roles
+- role_permissions
+- members
+- deposits
+- expenses
+- donations
+- payment_transactions
+- notices
+- events
+- gallery_items
+- complaints
+- complaint_updates
+- notifications
+- notification_preferences
+- social_links
+- theme_settings
+- site_settings
+- audit_logs
+
+Use proper relational constraints, indexes, timestamps, transaction handling and data validation.
+
+All website and Android features must use the same API and database.
+
+Initial database state
+
+This is a fresh system.
+
+- Do not import old data.
+- Do not invent members.
+- Do not invent deposits.
+- Do not invent expenses.
+- Do not invent donations.
+- All business tables must start empty.
+- Initial financial balance: ৳0.00.
+- Initial public income: ৳0.00.
+- Initial public expenses: ৳0.00.
+
+Admin accounts should be securely created through a protected setup process.
+
+Never hardcode default production passwords.
+
+---
+
+16. SECURITY & PRIVACY
+
+Security is mandatory.
+
+Implement:
+
+- Password hashing using a modern secure algorithm.
+- Secure session management.
+- Role-based access control.
+- CSRF protection where applicable.
+- Rate limiting.
+- Input validation.
+- Output encoding.
+- SQL injection prevention.
+- Secure file upload validation.
+- Private file storage.
+- Secure API authentication.
+- HTTPS.
+- Audit logs.
+- Secure password reset.
+- Environment-based secrets.
+- Database backups.
+- Error logging without leaking secrets.
+
+Sensitive data:
+
+- Never expose member mobile numbers or addresses publicly.
+- Never expose private complaint data.
+- Never expose payment secrets.
+- Never expose database credentials.
+- Never commit ".env" files or secret keys to GitHub.
+
+Create a privacy policy and explain how personal data is used.
+
+---
+
+17. BACKUP & DATA RECOVERY
+
+Implement:
+
+- Daily automated database backups.
+- Configurable backup retention.
+- Backup status monitoring.
+- Secure backup storage.
+- Restore documentation.
+- Recovery procedure.
+- Admin-visible backup status.
+
+A backup should be tested periodically; do not claim successful recovery without testing.
+
+---
+
+18. ADMIN SETTINGS
+
+Create a complete settings section.
+
+Admin should be able to configure:
+
+- Organization information.
+- Logo and cover image.
+- Website contact details.
+- Social media links.
+- Theme schedules.
+- Language defaults.
+- Public/private visibility.
+- Payment gateway settings.
+- Manual payment instructions.
+- Notification providers.
+- Member privacy.
+- Role permissions.
+- Website content.
+- Android app settings.
+- Backup settings.
+
+Sensitive settings must be protected by permissions and stored securely.
+
+---
+
+19. DEPLOYMENT PLAN
+
+The project will use:
+
+Website hosting
+
+Netlify.
+
+Backend hosting
+
+Render.
+
+Database
+
+PostgreSQL, preferably through a managed provider compatible with the Render deployment.
+
+Repository
+
+GitHub private repository named:
+
+"shankhodhwoni"
+
+Deployment requirements
+
+- Prepare frontend for Netlify deployment.
+- Prepare backend for Render deployment.
+- Configure PostgreSQL connection.
+- Use environment variables.
+- Configure CORS securely.
+- Configure frontend API base URL.
+- Configure production build.
+- Configure HTTPS.
+- Configure database migrations.
+- Configure secure file storage.
+- Provide deployment instructions in Bengali.
+
+Do not invent a live website URL.
+
+The final Netlify URL must be the actual URL returned after successful deployment.
+
+The project owner will publish the frontend through Netlify.
+
+---
+
+20. TESTING & QUALITY ASSURANCE
+
+Before declaring the project complete, test:
+
+Website
+
+- All pages.
+- All navigation links.
+- Mobile responsiveness.
+- Tablet responsiveness.
+- Desktop responsiveness.
+- Bengali/English switching.
+- Theme schedule.
+- Forms.
+- Admin authentication.
+
+Finance
+
+- Deposit creation.
+- Expense creation.
+- Draft status.
+- Review process.
+- Publish process.
+- Unpublish process.
+- Automatic balance calculation.
+- Audit history.
+- Reports and exports.
+
+Donation
+
+- Checkout initiation.
+- Payment verification.
+- Failed payments.
+- Duplicate callbacks.
+- Receipt generation.
+- Manual payment workflow.
+
+Complaints
+
+- Anonymous submission.
+- Named submission.
+- Tracking ID.
+- Private attachments.
+- Admin status updates.
+
+Android
+
+- Installation.
+- Login.
+- Navigation.
+- API connection.
+- Push notification.
+- Theme and language.
+- Admin permissions.
+
+Security
+
+- Unauthorized access.
+- Role permission tests.
+- Input validation.
+- File upload security.
+- API rate limiting.
+- Secret exposure checks.
+
+Provide a clear testing report.
+
+Do not claim that an integration, payment gateway, deployment or feature works unless it has actually been tested.
+
+---
+
+21. REQUIRED FINAL DELIVERABLES
+
+Deliver the following:
+
+1. Complete responsive website source code.
+2. Complete backend source code.
+3. Complete PostgreSQL database schema and migrations.
+4. Complete Admin Dashboard.
+5. Complete Android Studio project.
+6. Debug APK.
+7. Signed release APK/AAB when signing credentials are supplied.
+8. Netlify deployment configuration.
+9. Render deployment configuration.
+10. Environment variable example file without real secrets.
+11. Bengali deployment guide.
+12. Admin user guide.
+13. Database backup and restore guide.
+14. Payment gateway configuration guide.
+15. Testing report.
+16. Final project ZIP containing all source files.
+
+Important delivery rules
+
+- Do not deliver only a design mockup.
+- Do not deliver only a static HTML website.
+- Do not deliver a README instead of a working Android app.
+- Do not leave essential buttons non-functional.
+- Do not use fake financial data.
+- Do not invent member records.
+- Do not claim live deployment without verification.
+- Do not omit any requested feature.
+- If a feature requires third-party credentials, implement the integration structure and explain exactly what credentials/configuration remain.
+- Keep the project maintainable and documented.
+
+---
+
+22. DEVELOPMENT EXECUTION INSTRUCTIONS
+
+Build the project in clearly defined phases, but maintain one consistent architecture.
+
+Phase 1: Branding, design system, website structure and responsive frontend.
+
+Phase 2: Backend, PostgreSQL database, authentication and role permissions.
+
+Phase 3: Member management and financial management.
+
+Phase 4: Draft → Review → Publish financial workflow.
+
+Phase 5: Donation checkout and payment verification.
+
+Phase 6: Notice, event, gallery and complaint systems.
+
+Phase 7: Notification and social media settings.
+
+Phase 8: Android application.
+
+Phase 9: Security, testing, backup and deployment preparation.
+
+Phase 10: Documentation and final source package.
+
+At the end of every phase:
+
+- Provide the completed source code.
+- List completed features.
+- List pending features.
+- Run available tests.
+- Fix errors before continuing.
+- Preserve all previously completed features.
+
+Do not simplify or remove features to save time.
+
+If the platform has limited capabilities, clearly explain the limitation and provide the closest working implementation instead of pretending it is complete.
+
+FINAL INSTRUCTION
+
+Create Shankhodhwoni as a premium, trustworthy, secure and fully functional digital platform for the temple and its community.
+
+The priority is:
+
+Functionality + Security + Financial Transparency + Premium Design + Bengali User Experience + Long-term Maintainability.
+
+The website, Android app, Admin Dashboard and database must work together as one unified ecosystem.
+
+Build the real project—not just a visual demo.
